@@ -6,14 +6,14 @@ const newRate = function (e) {
     for (let i = 0; i<=a; i++) {
         const feedbackStars = document.getElementById("feedbackStars");
         const Newstar = document.createElement("img");
-        Newstar.src = "assets/img/star.svg"
+        Newstar.src = "Assets/images/star.svg"
         Newstar.setAttribute("alt", "stellina");
         feedbackStars.replaceChild(Newstar, stars[i]);
     }
     for (let i = a+1; i<stars.length; i++) {
         const feedbackStars = document.getElementById("feedbackStars");
         const Newstar = document.createElement("img");
-        Newstar.src = "assets/img/blackStar.svg"
+        Newstar.src = "Assets/images/blackStar.svg"
         Newstar.setAttribute("alt", "stellina");
         feedbackStars.replaceChild(Newstar, stars[i]);
     }
