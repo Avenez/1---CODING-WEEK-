@@ -5,7 +5,7 @@ body {
 
 #container {
     text-align: center;
-    background-image: url(../img/bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     color: #E7E7EB;
     min-height: 100vh;
